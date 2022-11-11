@@ -2,7 +2,7 @@ package com.perprogarming;
 
 import java.util.Scanner;
 
-//WAJP to cretaed one int value from user and print thst intger that it's special tow dists number or not
+//WAJP to cretaed one int value from user and print thst intger that it's special tow digts number or not
 public class A {
 	public static void main(String[] args) {
 		Scanner kb =new Scanner(System.in);
