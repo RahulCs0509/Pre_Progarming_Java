@@ -6,18 +6,13 @@ public class Hexagon {
 	static void Phexagon(int n)
 	{
 		int l = 2 * n - 1;
-	
-		
 		for (int i = 0; i < n; i++)
 		{
-			int elem = i + n;
-	
-			
-			for (int k = 0; k < elem; k++)
+			int e = i + n;
+				for (int k = 0; k < e; k++)
 			{
 				
-				if ((k == n + i - 1) ||
-					(k == n - i - 1))
+				if ((k == n + i - 1) ||(k == n - i - 1))
 					System.out.print("*");
 				else
 					System.out.print(" ");
@@ -41,13 +36,12 @@ public class Hexagon {
 			int elem = h + n;
 			for (int k = 0; k < elem; k++)
 			{
-				if ((k == n + h - 1) ||
-					(k == n - h - 1))
+				if ((k == n + h - 1) ||(k == n - h - 1))
 					System.out.print("*");
 				else
 					System.out.print(" ");
 			}
-			System.out.print("\n");
+			System.out.println();
 		}
 	}
 	public static void main (String[] args)
